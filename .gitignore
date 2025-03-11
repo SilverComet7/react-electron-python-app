@@ -1,0 +1,77 @@
+# 依赖目录
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Electron 相关
+.electron-builder.env
+dist/
+dist_electron/
+release/
+**/dist_electron/
+**/release/
+*.app
+*.exe
+*.dmg
+*.zip
+*.blockmap
+*.deb
+*.rpm
+*.AppImage
+*.snap
+.webpack/
+.electron-vue/
+electron-builder.yml
+electron-builder-*.yml
+
+# Python 环境 (如果你在项目中使用 Python)
+python-env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE和编辑器文件
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 编译输出
+dist/
+build/
+out/
+*.log
+
+# 环境变量和配置文件
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# 缓存文件
+.cache/
+.temp/
+.tmp/
+*.tmp
+*.temp
+
+# 测试覆盖率报告
+coverage/
