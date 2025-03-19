@@ -5,6 +5,7 @@ import { store } from './store'
 import { Counter } from './components/Counter'
 import FileSelector from './components/FileSelector'
 import TitleSetter from './components/TitleSetter'
+import UpdateChecker from './components/UpdateChecker'
 
 // 创建根元素
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -18,6 +19,7 @@ const render = () => {
           <TitleSetter />
           <Counter />
           <FileSelector />
+          <UpdateChecker />
         </div>
       </Provider>
     </React.StrictMode>

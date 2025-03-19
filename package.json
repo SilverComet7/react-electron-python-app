@@ -7,7 +7,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-electron-python-app"
+    "url": "https://github.com/SilverComet7/react-electron-python-app"
   },
   "scripts": {
     "dev": "electron-vite dev --watch",
@@ -23,6 +23,9 @@
   },
   "devDependencies": {
     "@electron/asar": "^3.3.1",
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.11",
+    "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
     "electron": "^28.0.0",
     "electron-builder": "^24.9.1",
@@ -30,6 +33,7 @@
     "electron-vite": "^3.0.0",
     "python-shell": "^5.0.0",
     "sharp": "^0.33.5",
+    "typescript": "^5.8.2",
     "vite": "^5.0.0"
   },
   "build": {
@@ -99,11 +103,14 @@
     },
     "publish": {
       "provider": "github",
+      "url": "https://github.com/SilverComet7/react-electron-python-app",
       "private": false
     }
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.0",
+    "antd": "^5.24.4",
+    "electron-updater": "^6.3.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0"
